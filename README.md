@@ -1,4 +1,4 @@
-# -1082_Embedded-Image-Processing_HW3
+# 1082_Embedded-Image-Processing_HW3
 
 作業3:找一張馬路上的圖片，用紋路(LBP)來區分出馬路與街景的分割。
 

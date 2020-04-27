@@ -18,35 +18,35 @@
 - 訓練結果KNN 準確率可達 0.97 ， Decision Tree 準確率可達 0.98。</p>
 - 由於辨識後的結果會有許多雜訊，因此去雜訊時會判別若中間點的連通皆為 255 或 0 時，中間點就調整為 255 或 0 ，經過測試四連通的效果比八連通更好。</p>
 
-- 原圖1
+- 原圖1</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road9.jpg)
-- 結果圖1，去雜訊前 ，其中白色部分為馬路
+- 結果圖1，去雜訊前 ，其中白色部分為馬路</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p9_b.jpg)
-- 結果圖1，去雜訊後
+- 結果圖1，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p9_a.jpg)
-- 原圖2
+- 原圖2</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road13.jpg)
-- 結果圖2，去雜訊前 ，其中白色部分為馬路
+- 結果圖2，去雜訊前 ，其中白色部分為馬路</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p11_b.jpg)
-- 結果圖2，去雜訊後
+- 結果圖2，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p11_a.jpg)
-- 原圖3
+- 原圖3</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road4.jpg)
-- 結果圖3，去雜訊前 ，其中白色部分為馬路
+- 結果圖3，去雜訊前 ，其中白色部分為馬路</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p12_b.jpg)
-- 結果圖3，去雜訊後
+- 結果圖3，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p12_a.jpg)
-- 原圖4
+- 原圖4</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road12.jpg)
-- 結果圖4，去雜訊前 ，其中白色部分為馬路
+- 結果圖4，去雜訊前 ，其中白色部分為馬路</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p13_b.jpg)
-- 結果圖4，去雜訊後
+- 結果圖4，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p13_a.jpg)
-- 原圖5 (無出現於訓練資料中)
+- 原圖5 (無出現於訓練資料中)</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road21.jpg)
-- 結果圖5，去雜訊前 ，其中白色部分為馬路
+- 結果圖5，去雜訊前 ，其中白色部分為馬路</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p14_b.jpg)
-- 結果圖5，去雜訊後
+- 結果圖5，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p14_a.jpg)
 
 # 總結 </p>

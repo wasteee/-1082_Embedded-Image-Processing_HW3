@@ -63,9 +63,9 @@ def statistics(img,name,img_h,name_h,img_g):
 
 np.set_printoptions(threshold=np.inf)
 # settings for LBP
-radius = 1  # LBP算法中范围半径的取值
-n_points = 8 # 领域像素点数
-# 读取图像
+radius = 1  
+n_points = 8 
+
 image1 =cv2.imread('G:\\imagetest\\road\\road9_t.jpg',1)
 height, width, channels = image1.shape
 hsv_img = cv2.cvtColor(image1, cv2.COLOR_BGR2HSV)
@@ -109,16 +109,9 @@ for col in range(0,int(height/10) - height%10):
 
 
 
-#for i in range(916,926):
-#    for j in range(8,18):
-#        k1[925-i,17-j] = np.round(lbp[i,j])
-#        k1_gray[925-i,17-j] = gray1[i,j]
-#k1 = np.round(k1)
-#statistics(k1,'k1',k1_gray,'k1_gray')
 
 
-#cv2.imshow("lbp",lbp)
-#cv2.imwrite("G:\\imagetest\\lbp123.jpg",lbp)
+
 plt.hist(lbp.ravel(), 255, [0, 255])
 plt.show()
 plt.hist(k.ravel(), 255, [0, 255])

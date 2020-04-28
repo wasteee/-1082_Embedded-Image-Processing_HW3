@@ -24,30 +24,40 @@
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p9_b.jpg)
 - 結果圖1，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p9_a.jpg)
+- 結果圖1，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/0com.jpg)
 - 原圖2</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road13.jpg)
 - 結果圖2，去雜訊前 ，其中白色部分為馬路</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p11_b.jpg)
 - 結果圖2，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p11_a.jpg)
+- 結果圖2，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/1com.jpg)
 - 原圖3</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road4.jpg)
 - 結果圖3，去雜訊前 ，其中白色部分為馬路</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p12_b.jpg)
 - 結果圖3，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p12_a.jpg)
+- 結果圖3，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/2com.jpg)
 - 原圖4</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road12.jpg)
 - 結果圖4，去雜訊前 ，其中白色部分為馬路</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p13_b.jpg)
 - 結果圖4，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p13_a.jpg)
+- 結果圖4，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/3com.jpg)
 - 原圖5 (無出現於訓練資料中)</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road21.jpg)
 - 結果圖5，去雜訊前 ，其中白色部分為馬路</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p14_b.jpg)
 - 結果圖5，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p14_a.jpg)
+- 結果圖4，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/4com.jpg)
 
 # 總結 </p>
 整體而言，柏油路的部分都可以正確的辨識出來，但是遇到樹林的時候由於樹林的紋路與柏油路的紋路相近，導致會有些許誤判的出現，另外由於遠處的柏油對焦較模糊，所以辨識時也會辨識失敗，另外此作法還有一個缺點就是整體的執行速度非常緩慢，一張 1920x1280 的圖需要 2~3 分鐘才可辨識完成，整體實用性較低。

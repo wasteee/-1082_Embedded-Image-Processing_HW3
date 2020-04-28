@@ -56,7 +56,7 @@
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p14_b.jpg)
 - 結果圖5，去雜訊後</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p14_a.jpg)
-- 結果圖4，/合成圖</p>
+- 結果圖5，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/4com.jpg)
 
 # 總結 </p>

@@ -68,26 +68,20 @@
 
 # 方法二結果
 由於圖片中的左下與右下皆較容易是柏油路，所以從這些點開始往外做BFS會是一個很好的選擇，而以下結果則皆由左下開始</p>
-- 原圖1</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road9.jpg)
+
 - 結果圖1，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/5gen.jpg)
-- 原圖2</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road13.jpg)
 - 結果圖2，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/1gen.jpg)
-- 原圖3</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road4.jpg)
 - 結果圖3，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/2gen.jpg)
-- 原圖4</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road12.jpg)
 - 結果圖4，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/3gen.jpg)
-- 原圖5 </p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road21.jpg)
 - 結果圖5，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/4gen.jpg)
-
+- 結果圖6，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/9newrightgen.jpg)
+- 結果圖7，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/7newrightgen.jpg)
 # 總結 </p>
 整體而言，柏油路的部分都可以正確的辨識出來，但是遇到樹林的時候由於樹林的紋路與柏油路的紋路相近，導致會有些許誤判的出現，另外由於遠處的柏油對焦較模糊，所以辨識時也會辨識失敗，這些作法還有一個缺點就是整體的執行速度非常緩慢，一張 1920x1280 的圖需要 2~3 分鐘才可辨識完成，整體實用性較低。

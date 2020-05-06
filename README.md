@@ -25,63 +25,24 @@
 - 訓練結果KNN 準確率可達 0.97 ， Decision Tree 準確率可達 0.98。</p>
 - 由於辨識後的結果會有許多雜訊，因此去雜訊時會判別若中間點的連通皆為 255 或 0 時，中間點就調整為 255 或 0 ，經過測試四連通的效果比八連通更好。</p>
 
-- 原圖1</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road9.jpg)
-- 結果圖1，去雜訊前 ，其中白色部分為馬路</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p9_b.jpg)
-- 結果圖1，去雜訊後</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p9_a.jpg)
-- 結果圖1，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/0com.jpg)
-- 原圖2</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road13.jpg)
-- 結果圖2，去雜訊前 ，其中白色部分為馬路</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p11_b.jpg)
-- 結果圖2，去雜訊後</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p11_a.jpg)
-- 結果圖2，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/1com.jpg)
-- 原圖3</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road4.jpg)
-- 結果圖3，去雜訊前 ，其中白色部分為馬路</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p12_b.jpg)
-- 結果圖3，去雜訊後</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p12_a.jpg)
-- 結果圖3，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/2com.jpg)
-- 原圖4</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road12.jpg)
-- 結果圖4，去雜訊前 ，其中白色部分為馬路</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p13_b.jpg)
-- 結果圖4，去雜訊後</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p13_a.jpg)
-- 結果圖4，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/3com.jpg)
-- 原圖5 (無出現於訓練資料中)</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road21.jpg)
-- 結果圖5，去雜訊前 ，其中白色部分為馬路</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p14_b.jpg)
-- 結果圖5，去雜訊後</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_f_dt_v2_p14_a.jpg)
-- 結果圖5，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/4com.jpg)
-
 # 方法二結果
 由於圖片中的左下與右下皆較容易是柏油路，所以從這些點開始往外做BFS會是一個很好的選擇，而以下結果則皆由左下開始</p>
 
-- 結果圖1，/合成圖</p>
+- 原圖1</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road9.jpg)
+- 方法一結果圖1，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/0com.jpg)
+- 方法二結果圖1，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/5gen.jpg)
-- 結果圖2，/合成圖</p>
+- 原圖2</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road13.jpg)
+- 方法一結果圖2，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/1com.jpg)
+- 方法二結果圖2，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/1gen.jpg)
-- 結果圖3，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/2gen.jpg)
-- 結果圖4，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/3gen.jpg)
-- 結果圖5，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/4gen.jpg)
-- 結果圖6，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/9newrightgen.jpg)
-- 結果圖7，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/7newrightgen.jpg)
+
+
+
+
 # 總結 </p>
 整體而言，柏油路的部分都可以正確的辨識出來，但是遇到樹林的時候由於樹林的紋路與柏油路的紋路相近，導致會有些許誤判的出現，另外由於遠處的柏油對焦較模糊，所以辨識時也會辨識失敗，這些作法還有一個缺點就是整體的執行速度非常緩慢，一張 1920x1280 的圖需要 2~3 分鐘才可辨識完成，整體實用性較低。

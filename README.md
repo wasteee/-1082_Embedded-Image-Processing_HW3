@@ -19,6 +19,9 @@
 3.若相鄰點的 LBP 直方圖與 Hue 直方圖與目前點相識度在閥值內，則將下一點的輸出調為 255 並造訪；若不在閥值內，則記錄已造訪</p>
 4.重複2-3步驟直到所相鄰便都造訪完成</p>
 
+- 方法三 watershed</p>
+
+
 # 方法一結果 </p>
 - 總共切割出 10 張非馬路與 22 張馬路的照片，共 11 萬筆特徵。</p>
 - 將特徵使用PCA分析後，在第 12 筆資料時就達到 98%~99% ，因此可特徵數可降至 12 左右即可。</p>
@@ -28,18 +31,24 @@
 # 方法二結果
 由於圖片中的左下與右下皆較容易是柏油路，所以從這些點開始往外做BFS會是一個很好的選擇，而以下結果則皆由左下開始</p>
 
+
+
 - 原圖1</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road9.jpg)
 - 方法一結果圖1，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/0com.jpg)
 - 方法二結果圖1，/合成圖</p>
 ![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/5gen.jpg)
+- 方法三結果圖1，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/5segments.jpg)
 - 原圖2</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/road13.jpg)
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/fullroad/lbp.jpg)
 - 方法一結果圖2，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/1com.jpg)
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/outputs/Final_df_f_v0_p3.jpg)
 - 方法二結果圖2，/合成圖</p>
-![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/1gen.jpg)
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/0gen.jpg)
+- 方法三結果圖2，/合成圖</p>
+![image](https://github.com/wasteee/-1082_Embedded-Image-Processing_HW3/blob/master/image/gen/0segments.jpg)
 
 
 
